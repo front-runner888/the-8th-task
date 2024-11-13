@@ -1,0 +1,162 @@
+body{
+    max-width:  1200px;
+    margin: 0 auto;
+}
+ 
+.wrapper{
+    display: flex;
+    background-color: rgb(242, 245, 248);
+    position: relative;
+}
+ 
+.section1{
+    display: flex;
+    border-radius: 10px ;
+    margin:30px 10px ;
+    
+    
+       
+}
+.section2{
+    display: flex;
+    border-radius: 10px ;
+    margin:10px ;
+    
+     
+       
+}
+ 
+
+
+.cat1{
+    background-color: rgb(14, 67, 88);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-size: large;
+    
+    height: 300px;
+}
+
+.cat2{
+    background-color: rgb(14, 67, 88);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-size: large;
+     height: 300px;
+}
+.img-section{
+    border-radius: 10px;
+    width: 350px;
+    height: 200px;
+     
+     
+    
+}
+.text{
+    margin: 20px;
+    text-align:  left;
+    font-size: 20px;
+
+}
+
+    /* @media (max-width:800px){
+         .main{
+            flex-wrap: wrap;
+              
+         }
+         .section1{
+            display: block;
+            
+         } 
+         .section2{
+            position: fixed;
+            top: 350px;
+            
+         }
+          
+         .cat1 {
+            width: 300px;
+            flex-wrap: wrap;
+             height: 210px;
+             position: fixed;
+             top: 160px; 
+             left: 30px;
+             margin-left: 30px;
+             font-size: smaller;
+
+             
+         }
+
+         .cat2 {
+            width: 300px;
+            height: 210px;
+             margin: 20px;
+             position:fixed;
+            top: 160px;
+             
+            font-size: smaller;
+            right: 30px;
+         }
+         
+         
+         .img-section{
+            width:300px ;
+            height: 150px;
+         }
+         .text{
+            font-size: smaller;
+            width: 700px; 
+            margin-right: 10px;
+         }
+          
+    }    */
+
+    /* @media (max-width:350px){
+        .main{
+           flex-wrap: wrap;
+             
+        }
+        .section1{
+           display: block;
+           
+        } 
+        .section2{
+           position: fixed;
+           top: 600px;
+           
+        }
+         
+        .cat1 {
+           width: 300px;
+           flex-wrap: wrap;
+            height: 190px;
+            position: fixed;
+            top: 180px; 
+            font-size: smaller;
+            justify-content: center;
+            }
+
+        .cat2 {
+         width: 300px;
+        height: 210px;
+         position:fixed;
+        top: 380px;
+         font-size: smaller;
+            
+        }
+         
+        .img-section{
+           width:300px ;
+           height: 150px;
+        }
+        .text{
+           font-size: small;
+           width: 310px; 
+            
+        }
+         
+   }  */
